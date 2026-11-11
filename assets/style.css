@@ -11,3 +11,19 @@ html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}.reveal{opacity:1;transform:none}}
 
 .menu-toggle.is-open span:nth-child(1){transform:translateY(7px) rotate(45deg)}.menu-toggle.is-open span:nth-child(2){opacity:0}.menu-toggle.is-open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* FADEC ONG — visuels fournis, intégration locale V3 */
+.premium-hero-bg {background-image:url('images/accueil.webp')!important;background-position:center center!important;background-size:cover!important}
+.premium-hero-overlay{background:linear-gradient(90deg,rgba(5,28,33,.83),rgba(9,38,43,.55) 48%,rgba(13,48,52,.13))!important}
+.mission-image,.split-photo.photo{background-image:url('images/partenariats.webp')!important;background-position:center!important}
+.premium-pillar-image.education,.img-education,.img-training,.news-one{background-image:url('images/education.webp')!important}
+.premium-pillar-image.health,.img-health{background-image:url('images/sante.webp')!important}
+.premium-pillar-image.nature,.img-environment{background-image:url('images/environnement.webp')!important}
+.project-feature-image,.img-children{background-image:url('images/acte-naissance.webp')!important}
+.news-two,.img-community{background-image:url('images/camp-chantier.webp')!important}
+.brandmark{background:none!important;width:65px!important;height:64px!important;border-radius:0!important;flex:none!important;overflow:visible!important}
+.brandmark img{width:100%;height:100%;object-fit:contain}
+.footer-brand{display:flex!important;align-items:center;gap:12px}.footer-brand img{width:52px;height:52px;object-fit:contain}
+.fadec-gallery{padding:94px 0;background:#f7f7f3}.fadec-gallery h2{max-width:770px}.fadec-gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:38px}.fadec-gallery figure{margin:0;background:#fff;overflow:hidden;border:1px solid #e6e9e3}.fadec-gallery figure img{width:100%;height:225px;object-fit:cover;transition:transform .4s}.fadec-gallery figure:hover img{transform:scale(1.04)}.fadec-gallery figcaption{padding:15px 18px;font-size:.9rem;font-weight:750;color:#173e43}.fadec-gallery .caption-note{font-size:.8rem;color:#5e7476;margin-top:25px}
+@media(max-width:880px){.fadec-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.premium-hero-overlay{background:linear-gradient(90deg,rgba(5,28,33,.86),rgba(5,28,33,.35))!important}}
+@media(max-width:560px){.fadec-gallery-grid{grid-template-columns:1fr}.fadec-gallery{padding:62px 0}.brandmark{width:48px!important;height:50px!important}}
